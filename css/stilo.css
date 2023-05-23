@@ -4,11 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-Scale=1"/>
         <meta name="description" content="Autor: Arthur e Gabriele"/>
-        <link rel="stylesheet" href="css\stilo.css">
 </head>
 
 <body>
-    <canvas id="kirby" width="2000" height="2000"></canvas>
+    <canvas id="kirby"></canvas>
    <script src="js/index.js"></script> 
 </body>
 </html>
