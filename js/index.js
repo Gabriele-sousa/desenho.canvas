@@ -22,3 +22,21 @@ ctx.stroke();
 ctx.fill();
 
 
+ctx.beginPath();
+ctx.fillStyle="#f30000";
+ctx.strokeStyle="#c40000";
+ctx.moveTo(930,548);
+ctx.bezierCurveTo(850, 700, 710, 500, 840, 500);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(1052,510);
+ctx.bezierCurveTo(900, 800, 760, 550, 970, 548);
+ctx.stroke();
+
+
+
+
+
+
