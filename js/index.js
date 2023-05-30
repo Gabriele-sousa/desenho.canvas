@@ -32,11 +32,29 @@ ctx.stroke();
 
 ctx.beginPath();
 ctx.moveTo(1052,510);
-ctx.bezierCurveTo(900, 800, 760, 550, 970, 548);
+ctx.bezierCurveTo(1200, 670, 970, 600, 970, 548);
+ctx.fill();
 ctx.stroke();
 
+ctx.beginPath()
+ctx.fillStyle="#FFCBF6";
+ctx.strokeStyle="#ff7fe9";
+ctx.arc(950, 400, 150, 0, Math.PI * 2);
+ctx.fill();
+ctx.stroke();
 
+ctx.beginPath()
+ctx.fillStyle="#A91818";
+ctx.arc(950, 430, 30, 0, Math.PI, false);
+ctx.fill();
+ctx.stroke();
 
+ctx.beginPath();
+ctx.strokeStyle="#000000";
+ctx.arc(900, 390, 25, 0, Math.PI, true);
+ctx.stroke();
 
-
-
+ctx.beginPath();
+ctx.strokeStyle="#000000";
+ctx.arc(1000, 380, 25, 0, Math.PI * 2);
+ctx.stroke();
