@@ -3,6 +3,52 @@ const ctx = canvas.getContext('2d');
 ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
 
+ctx.beginPath();
+ctx.moveTo(830, 210);
+ctx.lineTo(840, 200);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(860, 195);
+ctx.lineTo(900, 160);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(900, 160);
+ctx.lineTo(850, 160);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(850, 160);
+ctx.lineTo(830, 110);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(830, 110);
+ctx.lineTo(815, 160);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(815, 160);
+ctx.lineTo(770, 160);
+ctx.stroke()
+
+ctx.beginPath();
+ctx.moveTo(770, 160);
+ctx.lineTo(805, 195);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(805, 195);
+ctx.lineTo(790, 245);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(790, 245);
+ctx.lineTo(830, 210);
+ctx.stroke();
+
+ctx.beginPath();
 ctx.fillStyle="#FFCBF6";
 ctx.strokeStyle="#ff7fe9";
 ctx.arc(950, 400, 150, 0, Math.PI * 2);
@@ -55,6 +101,29 @@ ctx.arc(900, 390, 25, 0, Math.PI, true);
 ctx.stroke();
 
 ctx.beginPath();
+ctx.fillStyle="#000000";
 ctx.strokeStyle="#000000";
 ctx.arc(1000, 380, 25, 0, Math.PI * 2);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.fillStyle="white";
+ctx.strokeStyle="white";
+ctx.arc(1010, 370, 10, 0, Math.PI * 2);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.fillStyle="#FF9EF2";
+ctx.strokeStyle="#FF9EF2";
+ctx.arc(1010, 430, 15, 0, Math.PI * 2);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.fillStyle="#FF9EF2";
+ctx.strokeStyle="#FF9EF2";
+ctx.arc(890, 430, 15, 0, Math.PI * 2);
+ctx.fill();
 ctx.stroke();
