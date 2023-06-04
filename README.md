@@ -24,5 +24,6 @@ Para criar o desenho, foram ultilizados os seguites passos:
 
 3. Processo do desenho:
  -Primeiro foi criado um circulo com o 'ctx.arc' com a cor base `#FFCBF6` e a cor do stroke sendo `#ff7fe9`.
+ 
  <img src"img/1.png"/>
  
