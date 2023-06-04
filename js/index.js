@@ -8,9 +8,7 @@ ctx.strokeStyle="#F1C200";
 ctx.fillStyle="#FFF118";
 ctx.moveTo(860, 195);
 ctx.lineTo(900, 160);
-ctx.fill();
 ctx.stroke();
-
 
 ctx.moveTo(900, 160);
 ctx.lineTo(850, 160);
@@ -48,6 +46,7 @@ ctx.moveTo(870, 243);
 ctx.lineTo(860, 195);;
 ctx.stroke();
 
+
 ctx.beginPath();
 ctx.fillStyle="#FFCBF6";
 ctx.strokeStyle="#ff7fe9";
@@ -72,7 +71,7 @@ ctx.beginPath();
 ctx.fillStyle="#f30000";
 ctx.strokeStyle="#c40000";
 ctx.moveTo(930,548);
-ctx.bezierCurveTo(850, 700, 710, 500, 840, 500);
+ctx.bezierCurveTo(830, 650, 710, 560, 840, 500);
 ctx.fill();
 ctx.stroke();
 
