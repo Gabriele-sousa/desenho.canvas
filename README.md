@@ -14,11 +14,11 @@
 
 Para criar o desenho, foram ultilizados os seguites passos:
 
-1.estrutura do site:
+1. estrutura do site:
  -Criar a estrutura básica do html e adicinar a tag canvas.
  -Adicionar o JavaScript.
 
-2.Pocesso do desenho:
+2. Pocesso do desenho:
  -primeiro foi pego o id do canvas com o nome de 'kirby', e depois foi pego o contexto 2d do canvas.
  -
  
