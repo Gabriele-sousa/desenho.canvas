@@ -15,14 +15,14 @@
 Para criar o desenho, foram ultilizados os seguites passos:
 
 1. estrutura do site:
- * Criar a estrutura básica do html e adicinar a tag canvas.
- * Adicionar o JavaScript.
+ - Criar a estrutura básica do html e adicinar a tag canvas.
+ - Adicionar o JavaScript.
 
 2. Pegando id:
  - Foi pego o id do canvas com o nome de 'kirby', e depois foi pego o contexto 2d do canvas.
  - O canvas foi deixado do tamanho da tela.
 
-3. Processo do desenho:
+3. Criando o corpo:
  
  - Primeiro foi criado um circulo com o 'ctx.arc' com a cor base `#FFCBF6` e a cor do stroke sendo `#ff7fe9`.
  <img src="img/1.png"/>
@@ -30,3 +30,9 @@ Para criar o desenho, foram ultilizados os seguites passos:
  - Depois foi feitas duas curvas com o 'ctx.bezierCurveTo' ligados ao circulo para criar os braços.
  <img src="img/2.png"/>
  
+ - depois foi adicionas mais duas curvas ligadas ao circulo com a cor base `f30000` e a cor do stroke sendo `c40000` para criar os pés.
+ <img src="img/3.png"/>
+ 
+4. Criando o rosto:
+ - foi adicionado um circulo pequeno mais a direita com a cor base `#000000` e a cor do stroke sendo `#000000` para criar o olho, e um circulo mais pequeno com a cor base `white` para fazer o brilho do olho.
+ - depois 
