@@ -23,6 +23,6 @@ Para criar o desenho, foram ultilizados os seguites passos:
  -O canvas foi deixado do tamanho da tela.
 
 3. Processo do desenho:
- -Primeiro foi criado um circulo com o 'ctx.arc' com a cor base `#FFCBF6` e a cor do stroke sendo `#ff7fe9`.
+ -Primeiro foi criado um circulo com o 'ctx.arc' com a cor base `#FFCBF6` e a cor do stroke sendo `#0969DA`.
  
  
