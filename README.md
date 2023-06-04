@@ -41,7 +41,7 @@ Para criar o desenho, foram ultilizados os seguites passos:
  
 5. criando a estrela:
  - Para criar a estrela foi adicionado 10 linhas com as `ctx.moveTo()` e `ctx.lineTo()` com a cor da stroke sendo `#F1C200`.
- <img src"img/5.png"/>
+ <img src="img/5.png"/>
 
 ## Autores
 Gabriele Batista Sousa e Arthur Victor Sousa Mascate 
