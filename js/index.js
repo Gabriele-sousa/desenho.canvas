@@ -6,46 +6,40 @@ ctx.canvas.height = window.innerHeight;
 ctx.beginPath();
 ctx.strokeStyle="#F1C200";
 ctx.fillStyle="#FFF118";
+
 ctx.moveTo(860, 195);
 ctx.lineTo(900, 160);
-ctx.stroke();
 
-ctx.moveTo(900, 160);
+
 ctx.lineTo(850, 160);
-ctx.stroke();
 
-ctx.moveTo(850, 160);
+
 ctx.lineTo(830, 110);
-ctx.stroke();
 
-ctx.moveTo(830, 110);
+
 ctx.lineTo(815, 160);
-ctx.stroke();
 
-ctx.moveTo(815, 160);
+
 ctx.lineTo(770, 160);
-ctx.stroke();
 
-ctx.moveTo(770, 160);
+
 ctx.lineTo(805, 195);
-ctx.stroke();
 
-ctx.moveTo(805, 195);
+
 ctx.lineTo(790, 245);
-ctx.stroke();
 
-ctx.moveTo(790, 245);
+
+
 ctx.lineTo(830, 210);
-ctx.stroke();
 
-ctx.moveTo(830, 210);
+
+
 ctx.lineTo(870, 243);
-ctx.stroke();
 
-ctx.moveTo(870, 243);
+
 ctx.lineTo(860, 195);;
 ctx.stroke();
-
+ctx.fill();
 
 ctx.beginPath();
 ctx.fillStyle="#FFCBF6";
